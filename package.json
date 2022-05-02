@@ -1,0 +1,20 @@
+{
+  "name": "fireencoder",
+  "version": "1.0.0",
+  "description": "Fire and Ice Encoder for binary system",
+  "main": "app.js",
+  "bin": {
+    "fib": "./app.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "LibirSoft",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.1",
+    "yargs": "^17.4.1"
+  }
+}
